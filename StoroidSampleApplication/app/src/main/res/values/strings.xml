@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StoroidSampleApplication</string>
+    <string name="add_btn">Add Note</string>
+    <string name="del_btn">Delete Note</string>
+    <string name="add_msg">Please add your note.</string>
+    <string name="failed_save">Failed to save the note...</string>
+
+
+</resources>
