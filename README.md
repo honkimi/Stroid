@@ -230,6 +230,7 @@ In your Activity class, define Dao in the field.
     private NoteDao noteDao;
     
 In `onCreate()`, init Dao class and then you can use every dao methods.
+
     noteDao = NoteDao.getInstance(this, new NoteMigration());
     // find
     noteDao.findAll();
