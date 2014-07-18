@@ -114,7 +114,7 @@ Regarding `getOnUpgradeSql`, you can write upgrade sql sentences. There are some
     }
 
 ### Add column when upgrading
-In this case, we need to a little bit hack.
+You need to use db.execSQL() if you want to implement multi sql sentences.
 
     try {
         String str = "ALTER TABLE " + getTableName() + " ADD COLUMN "
